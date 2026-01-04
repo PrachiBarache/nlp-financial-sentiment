@@ -1,7 +1,7 @@
 import joblib
 import numpy as np
 from sklearn.feature_extraction.text import TfidfVectorizer
-from src.fetures.preprocessing import clean_text
+from fetures.features.preprocessing import clean_text
 
 LABEL_MAP = {0:"negetive",  1:"neutral", 2:"positive"}
 
